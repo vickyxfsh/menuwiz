@@ -67,6 +67,6 @@ cuisineElements.forEach((cuisineEl) => {
     showCuisineImages(topImages, bottomImages);
   });
 
-  // OPTIONAL: revert to default on mouseout
-  cuisineEl.addEventListener('mouseout', resetImages);
+  // // OPTIONAL: revert to default on mouseout
+  // cuisineEl.addEventListener('mouseout', resetImages);
 });
