@@ -1,2 +1,2 @@
-# menugenius
-website
+# menuwiz
+https://vickyxfsh.github.io/menuwiz/
