@@ -480,4 +480,27 @@ body {
       max-width: 1100px;
     }
   }
+
+  /* Mobile adjustments */
+    @media (max-width: 767px) {
+        .title {
+        font-size: 40px;
+        line-height: 45px;
+        }
+        .hero h1 {
+        font-size: 50px;
+        line-height: 55px;
+        letter-spacing: -2px;
+        }
+        .subtitle,
+        .text {
+        font-size: 16px;
+        line-height: 24px;
+        }
+        .name {
+        font-size: 30px;
+        line-height: 35px;
+        }
+    }
+    
   
