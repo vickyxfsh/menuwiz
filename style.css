@@ -1,498 +1,483 @@
 /* Global Styles */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  color: #2D2323;
-  background-color: #FAFAF8;
-  padding: 0;
-  margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #2D2323;
+    background-color: #FAFAF8;
+    margin: 0;
+    padding: 0;
   }
   
+  /* Typography */
   .title {
-  color: #2D2323;
-  font-family: "Canela Text";
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 63.6px; 
+    color: #2D2323;
+    font-family: "Canela Text", serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63.6px;
   }
-  
   .quote {
-  text-align: center;
-  color: #333;
-  font-family: "Canela Text";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
-  color: #4A4A4A;
+    text-align: center;
+    color: #4A4A4A;
+    font-family: "Canela Text", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
   }
-  
-  .subtitle{
-  color: #4A4A4A;
-  font-family: "poppins";
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px; /* 145.455% */
+  .subtitle {
+    color: #4A4A4A;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
   }
-  
-  .text{
-  color: #000;
-  text-align: center;
-  font-family: Poppins;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px; /* 145.455% */
+  .text {
+    color: #000;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
   }
-  
-  .name{
-  color: #2D2323;
-  font-family: Poppins;
-  font-size: 40.2px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 50px; /* 124.378% */
-  letter-spacing: -0.2px;
+  .name {
+    color: #2D2323;
+    font-family: "Poppins", sans-serif;
+    font-size: 40.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.2px;
   }
-  
-  .icon{
-      color: #2D2323;
-      font-family: Inter;
-      font-size: 50px;
-      font-style: "poppins";
-      font-weight: 400;
-      text-align: center;
+  .icon {
+    color: #2D2323;
+    font-family: Inter, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
   }
-  /* Hero Section */
-  .hero {
-  text-align: center;
-  padding: 100px 0px 100px 0px;
-  background-color: #FAFAF8; 
-  }
-  /* .hero .columns {
-      display: grid;
-      grid-template-columns: 3fr 1fr;
-      gap: 40px;
-      align-items: start;
-      max-width: 1100px;
-      margin: 0 auto;
-      width: 90%;  
-  }
-  
-  .hero .column.left {
-  text-align: left;
-  }
-  
-  .hero .column.right {
-      position: relative; 
-  }
-   */
-  
-  
-  .hero h1 {
-  color: #2D2323;
-  font-size: 84px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 89px; /* 105.952% */
-  letter-spacing: -3.36px;
-  }
-  
-  .hero .subtitle {
-  margin-bottom: 60px;
-  }
-  
-  .hero .text {
-  color: #A8BDA0;
-  font-family: Poppins;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-transform: uppercase;
-  text-align: center;
-  }
-  
-  .waitlist-btn {
-  background-color: #E8B775;
-  color: white;
-  padding: 15px 30px;
-  border: none;
-  border-radius: 30px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  text-align: center;
-  font-family: Poppins;
-  color: #2D2323;
-  font-weight: 700;
-  }
-  
-  .waitlist-btn:hover {
-  background-color: #C89A5D;
-  }
-  
-  /* How It Works Section */
-  .how-it-works {
-  padding: 30px 15px;
-  text-align: center;
-  }
-  
-  .steps {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  margin-top: 30px;
-  padding-top: 20px;
-  }
-  
-  .step {
-  background-color: #FFFFFF;
-  border: 2px solid #E8E8E8;
-  padding: 20px;
-  border-radius: 30px;
-  font-size: 18px;
-  max-width: 400px; 
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-  padding: 50px 0px 50px 0px;
-  flex: 1 1 300px; 
-  }
-  
-  .step .text strong {
-  /* Use a different font and color for the bold headings */
-  font-family: Aboreto, sans-serif;
-  font-size: 25px;
-  /* font-weight: 400; */
-  color: #2D2323;
-  }
-  
-  .step .text{  
-  font-size: 20px;
-  padding-inline-start: 10%;
-  padding-inline-end: 10%;
-  text-align: center;
-  }
-  
-  .circle-emoji {
-  position: relative;   /* container for stacking */
-  width: 85px;          /* match SVG dimensions */
-  height: 85px;
-  margin: 0 auto;       /* optional: center horizontally */
-  padding: 20px;
-  }
-  
-  /* The SVG fills the container */
-  .circle-emoji svg {
-  width: 100%;
-  height: 100%;
-  display: block;
-  }
-  
-  /* Position the emoji in the center of the circle */
-  .circle-emoji .emoji {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2.5rem;  
-  line-height: 1;  
-  }
-    
-  
-  /* Target Audience Section */
-  
-  .target-audience {
-  /* padding: 60px; */
-  background-color: #FAFAF8;
-  text-align: left;
-  }
-  .target-audience .title{
-  text-align: left;
-  color: #8E9775;
-  }
-  .columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  align-items: center;
-  max-width: 1100px;
-  margin: 0 auto;
-  }
-  .audience-list {
-  font-size: 17px;
-  color: #2D2323;
-  line-height: 1.8;
-  text-align: left;
-  }
-  .audience-list p {
-  margin-bottom: 20px;
-  font-weight: 500;
-  }
-  .audience-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  }
-  
-  .audience-list .text {
-  margin: 0 0 1em; /* Space between paragraphs */
-  text-align: left;
-  }
-  .audience-list .text strong {
-  /* Use a different font and color for the bold headings */
-  font-family: Aboreto, sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #2D2323;
-  }
-  .audience-image img {
-  max-width: 100%;
-  padding-top: 200px;
-  }
-  .tagline {
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 50px;
-  color: #2D2323;
-  }
-  
-  /* Explore Dish Section */
-  .dishes-section {
-  padding: 60px;
-  background-color: #FAFAF8;
-  text-align: center;
-  }
-  .dishes-section .title{
-      text-align: left;
-      padding: 0px 100px 0px 100px;
-  }
-  .dishes-section .cuisines {
-  /* Container styles for the lines of text */
-  color: rgba(74, 74, 74, 0.47);
-  padding: 0px 100px 0px 100px;
-  font-family: Poppins;
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 30px;
-  text-align: left;
-  display: flex;
-  width: 1200px;
-  }
-    
-  .cuisine {
-  cursor: pointer;
-  }
-  .cuisine:hover {
-  color: #2D2323;
-  }
-  
-  .dish-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  overflow: hidden;
-  justify-content: flex-start; /* aligns items to the left */
-  }
-  .dish-row {
-  display: flex;
-  width: 100%;
-  }
-  .inner {
-  display: flex;
-  /* For a seamless loop, we’ll animate from 0 to -50% (or 50% for reverse) */
-  }
-  /* Top row slides from left to right */
-  .top .inner {
-      animation: slideRight 60s linear infinite;
-    }
-    
-  @keyframes slideRight {
-  from {
-      transform: translateX(-50%);
-  }
-  to {
-      transform: translateX(0);
-  }
-  }
-  
-  /* Bottom row slides from right to left */
-  .bottom .inner {
-  animation: slideLeft 60s linear infinite;
-  }
-  
-  @keyframes slideLeft {
-  from {
-      transform: translateX(0);
-  }
-  to {
-      transform: translateX(-50%);
-  }
-  }
-  
-  .dish-gallery img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50px;
-  background-color: rgba(142, 151, 117, 0.10);
-  padding: 30px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  flex-shrink: 0;
-  margin-right: 40px;
-  }
-  
-  /* Why Created (Founder) Section */
-  
-  .why-created {
-  text-align: center;
-  padding: 30px;
-  }
-  
-  
-  .why-created .text{
-  text-align: left;
-  }
-  .why-created .name{
-  text-align: left;
-  }
-  
-  .founder {
-  display: flex;
-  max-width: 600px;  
-  width: 100%;    
-  margin: 0 auto;      
-  justify-content: center;
-  align-items: center;
-  gap: 100px;
-  flex-shrink: 0; 
-  }
-  
-  .founder-card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;       
-  max-width: 970px;    
-  
-  padding: 50px;
-  border-radius: 40px;
-  background: rgba(227, 193, 111, 0.50);
-  flex-shrink: 0;
-  }
-  
-  .founder-photo img {
-  width: 335px;
-  height: 350px;   /* if you want a fixed image size, you can keep this. 
-          Otherwise, remove for auto-scaling */
-  flex-shrink: 0;
-  object-fit: cover;
-  }
-  .social-icons {
-  display: flex; /* or flex */
-  gap: 10px; /* space between icons */
-  align-items: center;
-  }
-  
-  .social-icons img {
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-  }
-  
-  /* Waitlist Section */
-  .waitlist {
-  text-align: center;
-  padding: 30px 50px 30px 50px;
-  }
-  .buttons button {
-  padding: 12px 24px;
-  border-radius: 30px;
-  display: inline-flex;
-  font-size: 16px;
-  margin: 10px;
-  cursor: pointer;
-  color: #4A3E3E;
-  font-family: Poppins;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24.48px; /* 174.857% */
-  border: none;
-  
-  }
-  
-  .btn-primary {
-  background-color: #B2E7E1;
-  color: #000;
-  }
-  .btn-secondary {
-  background-color: #A8E1EE;
-  color: #000;
-  }
-  
-  /* Footer Section */
-  .site-footer {
-  background-color: #FAFAF8; /* matches your overall site background, adjust if desired */
-  padding: 100px 0 50px 0;          /* vertical spacing */
-  color: #9C9C9C;           /* text color */
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  }
-  
-  /* A flex container to separate left and right text */
-  .footer-content {
-  display: flex;
-  justify-content: space-between; /* left text on one side, right text on the other */
-  align-items: center;            /* vertically center the items */
-  max-width: 1100px;             /* container width */
-  margin: 0 auto;                /* center it horizontally */
-  padding: 0 20px;               /* horizontal padding */
-  }
-  
-  .footer-left p,
-  .footer-right p {
-  margin: 0; /* remove default paragraph margin */
-  }
-  
   
   /* Overall Header */
   .site-header {
-      background-color: #FAFAF8; /* matches your site’s background, adjust as needed */
-      font-family: 'Poppins';
-      position: fixed;    /* Keep the header fixed at the top */
-      top: 0;             /* Align it to the very top of the page */
-      left: 0;            /* Align to the left edge */
-      width: 100%;        /* Make it span the full browser width */
-      z-index: 9999;      /* Ensure it stays above other elements */
-    }
-    
-    
-  /* Main content container */
+    background-color: #FAFAF8;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
   .header-content {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end; 
-  margin: 0 auto;            /* center the container */
-  padding: 20px;             /* vertical/horizontal spacing */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    margin: 0 auto;
   }
   
   /* Sign Up Button */
   .signup-btn {
-  border: 1px solid #2D2323;
-  background: none;
-  color: #2D2323;
-  font-family: "poppins";
-  padding: 8px 16px;
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 16px;
+    border: 1px solid #2D2323;
+    background: none;
+    color: #2D2323;
+    font-family: "Poppins", sans-serif;
+    padding: 8px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .signup-btn:hover {
+    background-color: #A8BDA0;
+    color: #2D2323;
+    border-color: #2D2323;
   }
   
-  .signup-btn:hover {
-  background-color: #A8BDA0; /* a green shade */
-  color: #2D2323;
-  border-color: #2D2323;
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 5vh 5%;
+    background-color: #FAFAF8;
   }
+  .hero h1 {
+    color: #2D2323;
+    font-size: 84px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: -3.36px;
+    margin: 0.5em 0;
+  }
+  .hero .subtitle {
+    margin-bottom: 60px;
+  }
+  .hero .text {
+    color: #A8BDA0;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  /* Waitlist Button */
+  .waitlist-btn {
+    background-color: #E8B775;
+    color: #2D2323;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+  }
+  .waitlist-btn:hover {
+    background-color: #C89A5D;
+  }
+  
+  /* How It Works Section */
+  .how-it-works {
+    padding: 30px 15px;
+    text-align: center;
+  }
+  .steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+    padding-top: 20px;
+  }
+  .step {
+    background-color: #FFFFFF;
+    border: 2px solid #E8E8E8;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px;
+    max-width: 400px;
+    padding: 50px 0;
+  }
+  .step .text {
+    font-size: 20px;
+    padding: 0 10%;
+    text-align: center;
+  }
+  .step .text strong {
+    font-family: "Aboreto", sans-serif;
+    font-size: 25px;
+    color: #2D2323;
+  }
+  
+  /* Circle Emoji (in steps) */
+  .circle-emoji {
+    position: relative;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .circle-emoji svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .circle-emoji .emoji {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+  
+  /* Target Audience Section */
+  .target-audience {
+    background-color: #FAFAF8;
+    text-align: left;
+    padding: 30px 5%;
+  }
+  .target-audience .title {
+    text-align: left;
+    color: #8E9775;
+  }
+  .columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .audience-list {
+    font-size: 17px;
+    color: #2D2323;
+    line-height: 1.8;
+    text-align: left;
+  }
+  .audience-list p {
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  .audience-list .text {
+    margin: 0 0 1em;
+    text-align: left;
+  }
+  .audience-list .text strong {
+    font-family: "Aboreto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2D2323;
+  }
+  .audience-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .audience-image img {
+    max-width: 100%;
+    height: auto;
+    /* Reduce top padding on smaller screens */
+    padding-top: 100px;
+  }
+  .tagline {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    color: #2D2323;
+  }
+  
+  /* Explore Dish Section */
+  .dishes-section {
+    padding: 60px 5%;
+    background-color: #FAFAF8;
+    text-align: center;
+  }
+  .dishes-section .title {
+    text-align: left;
+    padding: 0 5%;
+  }
+  .dishes-section .cuisines {
+    color: rgba(74, 74, 74, 0.47);
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 5%;
+    margin: 0 auto 20px;
+  }
+  .cuisine {
+    cursor: pointer;
+  }
+  .cuisine:hover {
+    color: #2D2323;
+  }
+  
+  /* Dish Gallery */
+  .dish-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    overflow: hidden;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  .dish-row {
+    display: flex;
+    width: 100%;
+  }
+  .inner {
+    display: flex;
+    /* For seamless animation */
+  }
+  .top .inner {
+    animation: slideRight 60s linear infinite;
+  }
+  @keyframes slideRight {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  .bottom .inner {
+    animation: slideLeft 60s linear infinite;
+  }
+  @keyframes slideLeft {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  .dish-gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50px;
+    background-color: rgba(142, 151, 117, 0.10);
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+    margin-right: 40px;
+  }
+  
+  /* Why Created (Founder) Section */
+  .why-created {
+    text-align: center;
+    padding: 30px 5%;
+  }
+  .why-created .text {
+    text-align: left;
+  }
+  .why-created .name {
+    text-align: left;
+  }
+  .founder {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+  .founder-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 970px;
+    padding: 50px;
+    border-radius: 40px;
+    background: rgba(227, 193, 111, 0.50);
+  }
+  .founder-photo img {
+    width: 335px;
+    height: 350px;
+    object-fit: cover;
+  }
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  /* Waitlist Section */
+  .waitlist {
+    text-align: center;
+    padding: 30px 5%;
+  }
+  .buttons button {
+    padding: 12px 24px;
+    border-radius: 30px;
+    display: inline-flex;
+    font-size: 14px;
+    margin: 10px;
+    cursor: pointer;
+    color: #4A3E3E;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 24.48px;
+    border: none;
+  }
+  .btn-primary {
+    background-color: #B2E7E1;
+    color: #000;
+  }
+  .btn-secondary {
+    background-color: #A8E1EE;
+    color: #000;
+  }
+  
+  /* Footer Section */
+  .site-footer {
+    background-color: #FAFAF8;
+    padding: 100px 5% 50px;
+    color: #9C9C9C;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+  }
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .footer-left p,
+  .footer-right p {
+    margin: 0;
+  }
+  
+  /* Media Queries */
+  
+  /* Tablets (min-width: 768px) */
+  @media (min-width: 768px) {
+    .hero {
+      padding: 7vh 5%;
+    }
+    .hero h1 {
+      font-size: 84px;
+      line-height: 89px;
+    }
+    .columns {
+      grid-template-columns: 1fr 1fr;
+    }
+    .audience-image img {
+      padding-top: 150px;
+    }
+    .dishes-section .cuisines {
+      justify-content: flex-start;
+    }
+  }
+  
+  /* Desktops and Larger Screens (min-width: 1024px) */
+  @media (min-width: 1024px) {
+    .hero {
+      padding: 100px 10%;
+    }
+    .hero h1 {
+      font-size: 84px;
+      line-height: 89px;
+      letter-spacing: -3.36px;
+    }
+    .dishes-section .title {
+      padding: 0 10%;
+    }
+    .dishes-section .cuisines {
+      padding: 0 10%;
+      justify-content: flex-start;
+    }
+    .footer-content {
+      padding: 0 40px;
+    }
+    /* Maintain maximum widths for large displays */
+    .columns, .footer-content {
+      max-width: 1100px;
+    }
+  }
+  
